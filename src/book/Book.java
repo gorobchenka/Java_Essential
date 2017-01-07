@@ -12,11 +12,11 @@ public class Book {
 		Content content = new Content();
 		
 		Scanner in = new Scanner(System.in);
-		System.out.print("¬ведите название книги: ");
+		System.out.print("Enter title: ");
 		title.title = in.nextLine();
-		System.out.print("¬ведите автора книги: ");
+		System.out.print("Enter author: ");
 		author.author = in.nextLine();
-		System.out.print("¬ведите содержание книги: ");
+		System.out.print("Enter content: ");
 		content.content = in.nextLine();
 		
 		title.show();
